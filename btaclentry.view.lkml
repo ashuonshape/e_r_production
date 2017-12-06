@@ -6,10 +6,6 @@ view: btaclentry {
     sql: ${TABLE}.acl_entry_id ;;
   }
 
-  dimension: acl_entry_id1 {
-    type: string
-    sql: ${TABLE}.acl_entry_id ;;
-  }
 
   dimension: acl_name {
     type: string
